@@ -8,7 +8,7 @@ export const Products = () => {
 
   return (
     <div>
-      <ContainerSpace>
+      <ContainerSpace styles={{ backgroundColor: "white" }}>
         <Grid container paddingY={10}>
           <Grid
             item
@@ -178,7 +178,7 @@ export const Products = () => {
           </Grid>
         </Grid>
       </ContainerSpace>
-      <ContainerSpace>
+      <ContainerSpace styles={{ backgroundColor: "white" }}>
         <Grid container paddingY={10}>
           <Grid
             item

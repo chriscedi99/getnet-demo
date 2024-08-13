@@ -26,7 +26,7 @@ function App() {
           },
         ]}
       />
-      <ContainerSpace>
+      <ContainerSpace styles={{ backgroundColor: "white" }}>
         <Solutions />
       </ContainerSpace>
       <Products />

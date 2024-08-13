@@ -7,7 +7,11 @@ import { images } from "../../../assets";
 
 export const BlogSection = () => {
   return (
-    <Box>
+    <Box
+      sx={(theme) => ({
+        backgroundColor: theme.palette.common.white,
+      })}
+    >
       <ContainerSpace styles={{ backgroundColor: "red", paddingY: 8 }}>
         <Typography
           variant="h3"

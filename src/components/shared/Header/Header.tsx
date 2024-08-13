@@ -23,6 +23,7 @@ export const Header = () => {
         justifyContent: "space-around",
         alignItems: "center",
         paddingY: 1,
+        backgroundColor: theme.palette.common.white,
         [theme.breakpoints.down("md")]: {
           justifyContent: "space-between",
           paddingX: 6,
